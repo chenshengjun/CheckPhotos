@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD42FE9621F1C7FA00C8B7DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD42FE9521F1C7FA00C8B7DE /* AppDelegate.m */; };
+		CD42FE9921F1C7FA00C8B7DE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD42FE9821F1C7FA00C8B7DE /* ViewController.m */; };
+		CD42FE9E21F1C80100C8B7DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD42FE9D21F1C80100C8B7DE /* Assets.xcassets */; };
+		CD42FEA121F1C80100C8B7DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD42FE9F21F1C80100C8B7DE /* LaunchScreen.storyboard */; };
+		CD42FEA421F1C80100C8B7DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD42FEA321F1C80100C8B7DE /* main.m */; };
+		CD42FEAF21F1D19000C8B7DE /* PhotoLibVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CD42FEAE21F1D19000C8B7DE /* PhotoLibVC.m */; };
+		CD42FEB221F1DDC200C8B7DE /* PhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CD42FEB121F1DDC200C8B7DE /* PhotoCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CD42FE9121F1C7FA00C8B7DE /* CheckPhotos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckPhotos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD42FE9421F1C7FA00C8B7DE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD42FE9521F1C7FA00C8B7DE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD42FE9721F1C7FA00C8B7DE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CD42FE9821F1C7FA00C8B7DE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CD42FE9D21F1C80100C8B7DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD42FEA021F1C80100C8B7DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD42FEA221F1C80100C8B7DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD42FEA321F1C80100C8B7DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD42FEAD21F1D19000C8B7DE /* PhotoLibVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoLibVC.h; sourceTree = "<group>"; };
+		CD42FEAE21F1D19000C8B7DE /* PhotoLibVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoLibVC.m; sourceTree = "<group>"; };
+		CD42FEB021F1DDC200C8B7DE /* PhotoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoCell.h; sourceTree = "<group>"; };
+		CD42FEB121F1DDC200C8B7DE /* PhotoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD42FE8E21F1C7FA00C8B7DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD42FE8821F1C7FA00C8B7DE = {
+			isa = PBXGroup;
+			children = (
+				CD42FE9321F1C7FA00C8B7DE /* CheckPhotos */,
+				CD42FE9221F1C7FA00C8B7DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD42FE9221F1C7FA00C8B7DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD42FE9121F1C7FA00C8B7DE /* CheckPhotos.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD42FE9321F1C7FA00C8B7DE /* CheckPhotos */ = {
+			isa = PBXGroup;
+			children = (
+				CD42FE9421F1C7FA00C8B7DE /* AppDelegate.h */,
+				CD42FE9521F1C7FA00C8B7DE /* AppDelegate.m */,
+				CD42FE9721F1C7FA00C8B7DE /* ViewController.h */,
+				CD42FE9821F1C7FA00C8B7DE /* ViewController.m */,
+				CD42FEAD21F1D19000C8B7DE /* PhotoLibVC.h */,
+				CD42FEAE21F1D19000C8B7DE /* PhotoLibVC.m */,
+				CD42FEB021F1DDC200C8B7DE /* PhotoCell.h */,
+				CD42FEB121F1DDC200C8B7DE /* PhotoCell.m */,
+				CD42FE9D21F1C80100C8B7DE /* Assets.xcassets */,
+				CD42FE9F21F1C80100C8B7DE /* LaunchScreen.storyboard */,
+				CD42FEA221F1C80100C8B7DE /* Info.plist */,
+				CD42FEA321F1C80100C8B7DE /* main.m */,
+			);
+			path = CheckPhotos;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD42FE9021F1C7FA00C8B7DE /* CheckPhotos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD42FEA721F1C80100C8B7DE /* Build configuration list for PBXNativeTarget "CheckPhotos" */;
+			buildPhases = (
+				CD42FE8D21F1C7FA00C8B7DE /* Sources */,
+				CD42FE8E21F1C7FA00C8B7DE /* Frameworks */,
+				CD42FE8F21F1C7FA00C8B7DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CheckPhotos;
+			productName = CheckPhotos;
+			productReference = CD42FE9121F1C7FA00C8B7DE /* CheckPhotos.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD42FE8921F1C7FA00C8B7DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Beta;
+				TargetAttributes = {
+					CD42FE9021F1C7FA00C8B7DE = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = CD42FE8C21F1C7FA00C8B7DE /* Build configuration list for PBXProject "CheckPhotos" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD42FE8821F1C7FA00C8B7DE;
+			productRefGroup = CD42FE9221F1C7FA00C8B7DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD42FE9021F1C7FA00C8B7DE /* CheckPhotos */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD42FE8F21F1C7FA00C8B7DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD42FEA121F1C80100C8B7DE /* LaunchScreen.storyboard in Resources */,
+				CD42FE9E21F1C80100C8B7DE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD42FE8D21F1C7FA00C8B7DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD42FE9921F1C7FA00C8B7DE /* ViewController.m in Sources */,
+				CD42FEB221F1DDC200C8B7DE /* PhotoCell.m in Sources */,
+				CD42FEA421F1C80100C8B7DE /* main.m in Sources */,
+				CD42FEAF21F1D19000C8B7DE /* PhotoLibVC.m in Sources */,
+				CD42FE9621F1C7FA00C8B7DE /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CD42FE9F21F1C80100C8B7DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD42FEA021F1C80100C8B7DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD42FEA521F1C80100C8B7DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CD42FEA621F1C80100C8B7DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD42FEA821F1C80100C8B7DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 443HMM8KE4;
+				INFOPLIST_FILE = CheckPhotos/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.betawm.org.CheckPhotos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CD42FEA921F1C80100C8B7DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 443HMM8KE4;
+				INFOPLIST_FILE = CheckPhotos/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.betawm.org.CheckPhotos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD42FE8C21F1C7FA00C8B7DE /* Build configuration list for PBXProject "CheckPhotos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD42FEA521F1C80100C8B7DE /* Debug */,
+				CD42FEA621F1C80100C8B7DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD42FEA721F1C80100C8B7DE /* Build configuration list for PBXNativeTarget "CheckPhotos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD42FEA821F1C80100C8B7DE /* Debug */,
+				CD42FEA921F1C80100C8B7DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD42FE8921F1C7FA00C8B7DE /* Project object */;
+}
